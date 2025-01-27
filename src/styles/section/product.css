@@ -41,13 +41,18 @@
   }
 
   .product__wrapper {
-    grid-template-columns: repeat(2, minmax(155px, 320px));
+    grid-template-columns: repeat(2, minmax(150px, 320px));
     gap: 50px 40px;
   }
 
   @media screen and (max-width: 490px) {
     .product__title {
       font-size: 24px;
+    }
+
+    .product__wrapper {
+      grid-template-columns: repeat(2, minmax(148px, 320px));
+      gap: 30px 10px;
     }
   }
 }

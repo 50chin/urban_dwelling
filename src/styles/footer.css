@@ -108,9 +108,6 @@
 }
 
 @media screen and (max-width: 878px) {
-  .flex__wrapper {
-  }
-
   .footer__logo-block {
     margin-bottom: 33px;
   }
