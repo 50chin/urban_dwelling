@@ -28,7 +28,14 @@
   }
 }
 
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 1120px) {
+  .product__wrapper {
+    grid-template-columns: repeat(3, minmax(155px, 320px));
+    gap: 50px 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .product__title {
     font-size: 32px;
   }
