@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 835px) {
   .product__title {
     font-size: 32px;
   }

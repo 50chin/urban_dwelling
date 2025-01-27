@@ -11,7 +11,13 @@
 }
 
 @font-face {
-  font-family: "Korataki";
-  src: url("../fonts/korataki_bold.otf");
+  font-family: 'Korataki';
+  src: url('../fonts/korataki_bold.otf');
   font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto_Condensed-Regular.ttf');
+  font-weight: 400;
 }

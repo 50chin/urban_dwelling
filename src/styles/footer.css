@@ -31,7 +31,7 @@
 }
 
 .footer__info-text {
-  max-width: 322px;
+  max-width: 318px;
   color: #808080;
   font-family: 'Roboto';
   font-size: 16px;
@@ -125,12 +125,9 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 835px) {
   .footer {
     padding: 50px 0;
-  }
-
-  .footer__wrapper {
   }
 
   .footer__logo-block {
@@ -161,6 +158,11 @@
 @media screen and (max-width: 490px) {
   .footer__logo-block {
     margin-bottom: 0;
+  }
+
+  .footer__logo {
+    width: 180px;
+    height: 46.77px;
   }
 
   .footer__contacts-block:nth-child(2) {
