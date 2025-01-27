@@ -153,6 +153,10 @@
 }
 
 @media screen and (max-width: 490px) {
+  .footer {
+    padding: 40px 0;
+  }
+
   .footer__logo-block {
     margin-bottom: 0;
   }
