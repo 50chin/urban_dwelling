@@ -1,0 +1,35 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 35px;
+  box-sizing: content-box;
+}
+
+.price {
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 12px;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1601px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .container {
+    max-width: 680px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <script src="./src/script/app.js" defer type="module"></script>
+    <title>Urban Dwelling</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__info">
+        <div class="container">
+          <nav>
+            <ul class="header__info-list">
+              <li class="header__info-item">
+                <a href="#">Доставка и оплата</a>
+              </li>
+              <li class="header__info-item">
+                <a href="#">Гарантия и возврат</a>
+              </li>
+              <li class="header__info-item">
+                <select name="language" id="language">
+                  <option value="en">EN</option>
+                  <option value="ru">RU</option>
+                </select>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header__navbar">
+          <a href="#"><img src="./src/img/icon/black_logo.svg" alt="logo" /></a>
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item"><a href="#">Каталог</a></li>
+              <li class="header__menu-item"><a href="#">О компании</a></li>
+              <li class="header__menu-item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header__search-block">
+            <form class="header__form">
+              <input class="header__input" type="text" placeholder="поиск" />
+              <button class="header__btn-search" id="btn-search" type="button">
+                <img src="./src/img/icon/search.svg" alt="icon" />
+              </button>
+            </form>
+            <button class="header__btn-basket" id="btn-basket" type="button">
+              <img src="./src/img/icon/basket.svg" alt="icon-basket" /> Корзина
+            </button>
+          </div>
+          <!-- BURGER MENU -->
+          <div class="burger__menu">
+            <input
+              type="checkbox"
+              id="burger-checkbox"
+              class="burger-checkbox"
+            />
+            <label for="burger-checkbox" class="burger"></label>
+            <ul class="burger__menu-list">
+              <li class="burger__menu-item"><a href="#">Каталог</a></li>
+              <li class="burger__menu-item"><a href="#">О компании</a></li>
+              <li class="burger__menu-item"><a href="#">Контакты</a></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="product">
+        <div class="container">
+          <h2 class="product__title">Результаты поиска</h2>
+          <div class="product__wrapper"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__left-block">
+            <div class="footer__logo-block">
+              <img
+                class="footer__logo"
+                src="./src/img/icon/footer-logo.svg"
+                alt="logo"
+              />
+            </div>
+            <div class="footer__info-block">
+              <div class="footer__contacts">
+                <div class="footer__contacts-block">
+                  <p class="footer__subtitle">Адрес</p>
+                  <p class="footer__text">Текст, Текст, Текст</p>
+                </div>
+                <div class="footer__contacts-block">
+                  <p class="footer__subtitle">Контакты</p>
+                  <p class="footer__text">
+                    Email:
+                    <a href="mailto:urban.dwelling@yandex.com"
+                      >urban.dwelling@yandex.com</a
+                    >
+                  </p>
+                  <p class="footer__text">
+                    Телефон:<a href="tel:+79999999999">8 (999) 999-99-99</a>
+                  </p>
+                </div>
+              </div>
+              <div class="footer__services">
+                <p class="footer__subtitle">Услуги</p>
+                <nav class="footer__menu">
+                  <ul class="footer__menu-list">
+                    <li class="footer__menu-item footer__text">
+                      <a href="#">Каталог</a>
+                    </li>
+                    <li class="footer__menu-item footer__text">
+                      <a href="#">О компании</a>
+                    </li>
+                    <li class="footer__menu-item footer__text">
+                      <a href="#">Контакты</a>
+                    </li>
+                    <li class="footer__menu-item footer__text">
+                      <a href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="footer__menu-item footer__text">
+                      <a href="#">Гарантия и возврат</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="footer__legal-documents">
+            <p class="footer__text--gray">Публичная оферта</p>
+            <p class="footer__text--gray">Политика персональных данных</p>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__info-text">
+            Этот сайт защищен от спама службой reCAPTCHA Google.
+            <a class="footer__info-text--underline" href="#"
+              >Политика конфиденциальности/Условия предоставления услуг</a
+            >
+          </p>
+          <div class="footer__card-icons">
+            <img src="./src/img/icon/mir.svg" alt="банковская карта мир" />
+            <img src="./src/img/icon/visa.svg" alt="банковская карта виза" />
+            <img
+              src="./src/img/icon/masterCard.svg"
+              alt="банковская карта мастеркард"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

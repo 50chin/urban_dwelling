@@ -1,0 +1,58 @@
+export const productData = [
+  {
+    id: 1,
+    img: ['./src/img/card/img.webp', './src/img/card/img@2x.webp'],
+    name: 'Встраиваемый светильник Markt',
+    price: '3 490',
+    oldPrice: '5 060',
+  },
+  {
+    id: 2,
+    img: ['./src/img/card/img2.webp', './src/img/card/img2@2x.webp'],
+    name: 'Линейный светильник ARG',
+    price: '6 700',
+    oldPrice: false,
+  },
+  {
+    id: 3,
+    img: ['./src/img/card/img3.webp', './src/img/card/img3@2x.webp)'],
+    name: 'Светодиодный светильник',
+    price: '5 060',
+    oldPrice: '6 060',
+  },
+  {
+    id: 4,
+    img: ['./src/img/card/img.webp', './src/img/card/img@2x.webp'],
+    name: 'Встраиваемый светильник Markt',
+    price: '3 490',
+    oldPrice: false,
+  },
+  {
+    id: 5,
+    img: ['./src/img/card/img2.webp', './src/img/card/img2@2x.webp'],
+    name: 'Линейный светильник ARG',
+    price: '6 700',
+    oldPrice: '6 060',
+  },
+  {
+    id: 6,
+    img: ['./src/img/card/img3.webp', './src/img/card/img3@2x.webp'],
+    name: 'Светодиодный светильник',
+    price: '5 060',
+    oldPrice: false,
+  },
+  {
+    id: 7,
+    img: ['./src/img/card/img.webp', './src/img/card/img@2x.webp'],
+    name: 'Встраиваемый светильник Markt',
+    price: '3 490',
+    oldPrice: '6 060',
+  },
+  {
+    id: 8,
+    img: ['./src/img/card/img2.webp', './src/img/card/img2@2x.webp'],
+    name: 'Линейный светильник ARG',
+    price: '6 700',
+    oldPrice: false,
+  },
+];
